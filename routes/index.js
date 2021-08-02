@@ -3,3 +3,4 @@ exports.index = function(req, res){
 };
 exports.menu = require('./menu');
 exports.menuImg = require('./menuImg');
+exports.qrcode = require('./qrcode');

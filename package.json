@@ -2,13 +2,14 @@
   "name": "dt-menu",
   "version": "5.0.0",
   "dependencies": {
-    "express": "*",
-    "pug": "*",
-    "stylus": "*",
-    "serve-favicon": "*",
-    "morgan": "*",
     "body-parser": "*",
-    "method-override": "*"
+    "express": "*",
+    "method-override": "*",
+    "morgan": "*",
+    "pug": "*",
+    "qrcode": "^1.4.4",
+    "serve-favicon": "*",
+    "stylus": "*"
   },
   "engines": {
     "node": "*",

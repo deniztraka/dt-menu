@@ -28,11 +28,10 @@ if (app.get('env') == 'development') {
 	app.locals.pretty = true;
 }
 
-
-
 app.get('/', routes.index);
 app.use('/', routes.menu);
 app.use('/', routes.menuImg);
+app.use('/', routes.qrcode);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
