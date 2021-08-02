@@ -1,7 +1,11 @@
-// Display list of all Genre.
-exports.show = function(req, res) {
+var menuRepo = require('./../repositories/menuRepo.js');
 
-    //todo prepare url here
 
-    res.render('menu', {title:'Mola Cafe', menuUrl:'/img/'+req.params.id });
+exports.show = function (req, res) {
+
+    var menuObj = menuRepo.getById(req.params.id);
+
+    res.render('menu', {
+        menu: menuObj
+    });
 };
