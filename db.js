@@ -1,6 +1,6 @@
 exports.db = [{
     id: 'mola',
     name: 'Mola Kahve & Bisiklet',
-    menuImagePath: 'menulatest.jpg',
+    menuImagePath: 'menu.jpg',
     useTitleInStoreFront: false
 }];;
